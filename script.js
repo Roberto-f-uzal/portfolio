@@ -1,7 +1,7 @@
 const tabs = document.querySelectorAll('.tab');
 const contents = document.querySelectorAll('.tab-content');
 
-const ITEMS_PER_PAGE = 2;
+const ITEMS_PER_PAGE = window.innerWidth <= 768 ? 1 : 2;
 
 const state = {
     particulares: 0,
