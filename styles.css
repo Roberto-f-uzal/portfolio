@@ -110,9 +110,10 @@ body{font-family:Arial,sans-serif;background:#07112b;color:#fff;background-image
 /* ===================================================== */
 
 .intro{
-max-width:1300px;
-margin:auto;
-padding:80px 40px;
+    max-width:1300px;
+    margin:auto;
+    padding:80px 40px;
+/*    padding:80px 40px 0 40px;*/
 }
 
 .intro-content{
